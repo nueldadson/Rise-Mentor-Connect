@@ -8,7 +8,8 @@ const FAQ = () => {
 	const faqs = [
 		{
 			question: "Do I need experience to be a mentor?",
-			answer: "No! If you’re passionate about guiding girls, you qualify.",
+			answer:
+				"No ,we train you. If you are passionate about providing good guidance to girls,you qualify.",
 		},
 		{
 			question: "How much time is required?",

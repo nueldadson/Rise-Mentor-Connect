@@ -43,6 +43,14 @@ const HowItWorks = () => {
 								text: "Respond to their school, career, and life questions via text.",
 							},
 							{
+								title: "Dedicated Platform",
+								text: "Use our dedicated phone numbers only",
+							},
+							{
+								title: "Mentor Support",
+								text: "Use our Mentor support template (MST)",
+							},
+							{
 								title: "Watch Them Grow!",
 								text: "Your support transforms their confidence and future.",
 							},

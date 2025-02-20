@@ -28,7 +28,7 @@ const Testimonials = () => {
 						},
 						{
 							text: "Guiding young girls through SMS is the easiest way to create change. I love being part of this program!",
-							name: "Aisha, Teacher & Mentor",
+							name: "Paulina, Teacher & Mentor",
 						},
 					].map((testimonial, index) => (
 						<motion.div
