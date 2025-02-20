@@ -89,7 +89,7 @@ const HowItWorks = () => {
 						transition={{ duration: 0.8 }}
 					>
 						<img
-							src={Mentor3}
+							// src={Mentor3}
 							alt="Mentor receiving an SMS notification"
 							className="rounded-2xl shadow-lg w-full max-w-md relative"
 						/>

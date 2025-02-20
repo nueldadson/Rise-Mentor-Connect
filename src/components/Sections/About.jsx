@@ -57,7 +57,7 @@ const About = () => {
 				{/* ✅ IMAGE SECTION */}
 				<div className="flex items-center justify-center md:w-1/3">
 					<img
-						src={Mentor1}
+						// src={Mentor1}
 						alt="Mentor texting on a mobile phone"
 						className="rounded-3xl shadow-xl shadow-red-500 w-full md:w-[500px]"
 					/>
