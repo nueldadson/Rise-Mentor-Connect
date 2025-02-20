@@ -2,6 +2,7 @@ import React from "react";
 import { Hero } from "../components";
 import {
 	About,
+	Benefits,
 	Contact,
 	FAQ,
 	FinalCallToAction,
@@ -21,6 +22,7 @@ const Home = () => {
 			<HowItWorks />
 			<Testimonials />
 			<SafetyGuidelines />
+			<Benefits />
 			<FAQ />
 			<Contact />
 			<FinalCallToAction />
