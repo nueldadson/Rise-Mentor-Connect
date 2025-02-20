@@ -26,7 +26,7 @@ const FAQ = () => {
 
 	return (
 		<section
-			id="faq"
+			id="faqs"
 			className="max-w-[100vw] overflow-x-hidden py-16 px-6 bg-gradient-to-r from-[#FE5722] to-[#FFFF00]"
 		>
 			<div className="container mx-auto flex flex-col md:flex-row items-center gap-10">

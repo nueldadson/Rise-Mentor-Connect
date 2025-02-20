@@ -13,18 +13,18 @@ const Contact = () => {
 				</h2>
 
 				<p className="text-lg text-gray-700 mb-2">
-					<strong>Phone:</strong> +234 800 123 4567
+					<strong>Phone:</strong> +234 803 360 5285
 				</p>
 				<p className="text-lg text-gray-700 mb-2">
 					<strong>Email:</strong>{" "}
 					<a
-						href="mailto:info@riseconnect.org"
+						href="mailto:mentorconnect@gmail.com"
 						className="text-red-500 font-semibold hover:underline"
 					>
-						info@riseconnect.org
+						mentorconnect@gmail.com
 					</a>
 				</p>
-				<p className="text-lg text-gray-700 mb-6">
+				<p className="text-lg text-gray-700 mb-2">
 					<strong>Website:</strong>{" "}
 					<a
 						href="http://www.riseconnect.org"
@@ -32,7 +32,18 @@ const Contact = () => {
 						rel="noopener noreferrer"
 						className="text-blue-500 font-semibold hover:underline"
 					>
-						www.riseconnect.org
+						www.risementorconnect.com
+					</a>
+				</p>
+				<p className="text-lg text-gray-700 mb-6">
+					{/* <strong>Website:</strong>{" "} */}
+					<a
+						href="http://www.riseconnect.org"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="text-blue-500 font-semibold hover:underline"
+					>
+						www.risementee.com
 					</a>
 				</p>
 
@@ -53,7 +64,7 @@ const Contact = () => {
 						<FaInstagram className="text-pink-600 text-3xl hover:text-pink-800 transition duration-300" />
 					</a>
 					<a
-						href="https://twitter.com/RiseMentorConnect"
+						href="https://twitter.com/RiseMentorConn"
 						target="_blank"
 						rel="noopener noreferrer"
 					>

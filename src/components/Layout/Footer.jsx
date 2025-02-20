@@ -70,7 +70,7 @@ const Footer = () => {
 						<p className="text-xl font-semibold mb-4">Follow Us</p>
 						<div className="flex gap-6 text-3xl">
 							<a
-								href="https://www.facebook.com/booknewspaperadsng"
+								href="https://www.facebook.com/risementorconnect"
 								title="Facebook"
 								aria-label="Facebook"
 								target="_blank"
@@ -80,7 +80,7 @@ const Footer = () => {
 								<FontAwesomeIcon icon={faFacebook} />
 							</a>
 							<a
-								href="https://x.com/booknewspaperadsng"
+								href="https://x.com/risementorconn"
 								title="Twitter"
 								aria-label="Twitter"
 								target="_blank"
@@ -90,7 +90,7 @@ const Footer = () => {
 								<FontAwesomeIcon icon={faTwitter} />
 							</a>
 							<a
-								href="https://linkedin.com"
+								href="https://linkedin.com/company/risementorconnect"
 								title="LinkedIn"
 								aria-label="LinkedIn"
 								target="_blank"
@@ -100,7 +100,7 @@ const Footer = () => {
 								<FontAwesomeIcon icon={faLinkedin} />
 							</a>
 							<a
-								href="https://www.instagram.com/booknewspaperads.ng"
+								href="https://www.instagram.com/risementorconnect"
 								title="Instagram"
 								aria-label="Instagram"
 								target="_blank"

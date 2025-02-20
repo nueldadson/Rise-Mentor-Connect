@@ -42,7 +42,7 @@ const Nav = () => {
 
 				{/* Navigation Links */}
 				<nav className="flex h-full items-center">
-					<ul className="flex space-x-6 justify-end mr-5 items-center max-[1050px]:hidden text-lg">
+					<ul className="flex space-x-6 justify-end mr-5 items-center max-[1050px]:hidden text-md">
 						{navLinks.map(({ label, href }) => (
 							<li key={href}>
 								<Link
@@ -148,7 +148,7 @@ const Nav = () => {
 				{/* Social Media Links */}
 				<div className="flex justify-center mt-4 space-x-6 text-4xl text-brown mb-10">
 					<a
-						href="https://linkedin.com"
+						href="https://linkedin.com/company/risementorconnect"
 						title="LinkedIn"
 						aria-label="LinkedIn"
 						target="_blank"
@@ -157,7 +157,7 @@ const Nav = () => {
 						<FontAwesomeIcon icon={faLinkedin} />
 					</a>
 					<a
-						href="https://www.instagram.com/booknewspaperads.ng"
+						href="https://www.instagram.com/risementorconnect"
 						title="Instagram"
 						aria-label="Instagram"
 						target="_blank"
@@ -166,7 +166,7 @@ const Nav = () => {
 						<FontAwesomeIcon icon={faInstagram} />
 					</a>
 					<a
-						href="https://www.facebook.com/booknewspaperadsng"
+						href="https://www.facebook.com/risementorconnect"
 						title="Facebook"
 						aria-label="Facebook"
 						target="_blank"
@@ -175,7 +175,7 @@ const Nav = () => {
 						<FontAwesomeIcon icon={faFacebook} />
 					</a>
 					<a
-						href="https://x.com/booknewspaperadsng"
+						href="https://x.com/risementorconn"
 						title="Twitter"
 						aria-label="Twitter"
 						target="_blank"
