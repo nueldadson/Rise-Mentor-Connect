@@ -59,23 +59,27 @@ const MentorBenefits = () => {
 				<h2 className="text-4xl md:text-5xl font-extrabold mb-6">
 					Why Become a Mentor?
 				</h2>
-				<p className="text-lg md:text-xl text-gray-200 mb-12">
-					By mentoring with RISE Mentor Connect, you’re not just changing a
-					life—you’re shaping the future.
+				<p className="text-lg md:text-xl text-gray-200 mb-7">
+					By mentoring with RISE Mentor Connect, you’re not just changing a life
+					- you’re shaping the future.
 				</p>
+				<h2 className="inline-block bg-gradient-to-r from-red-600 to-yellow-500 text-white font-semibold py-3 px-6 rounded-lg hover:opacity-90 transition duration-300 text-2xl mb-7 ">
+					Benefits
+				</h2>
 
 				{/* Benefits Grid */}
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
 					{benefits.map((benefit) => (
 						<div
 							key={benefit.id}
-							className="bg-white bg-opacity-10 rounded-lg p-6 shadow-lg backdrop-blur-md flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-xl"
+							className="bg-red-600 text-white rounded-lg p-6 shadow-lg backdrop-blur-md flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-xl"
+							// className="bg-white bg-opacity-10 rounded-lg p-6 shadow-lg backdrop-blur-md flex flex-col items-center text-center transition transform hover:scale-105 hover:shadow-xl"
 						>
 							<div className="mb-4">{benefit.icon}</div>
 							<h3 className="text-xl font-bold text-yellow-300 mb-3">
 								{benefit.title}
 							</h3>
-							<p className="text-gray-200">{benefit.description}</p>
+							<p className="text-gray-200 font-semibold">{benefit.description}</p>
 						</div>
 					))}
 				</div>
