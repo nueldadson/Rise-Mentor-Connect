@@ -7,3 +7,4 @@ export { default as SafetyGuidelines } from "./SafetyGuidelines";
 export { default as Testimonials } from "./Testimonials";
 export { default as WhyBecomeMentor } from "./WhyBecomeMentor";
 export { default as Benefits } from "./Benefits";
+export { default as WhyGirlsNeedYou } from "./WhyGirlsNeedYou";

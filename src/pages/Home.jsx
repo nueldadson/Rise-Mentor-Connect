@@ -10,6 +10,7 @@ import {
 	SafetyGuidelines,
 	Testimonials,
 	WhyBecomeMentor,
+	WhyGirlsNeedYou,
 } from "../components/Sections";
 
 
@@ -18,6 +19,7 @@ const Home = () => {
 		<div className="w-[inherit] h-fit">
 			<Hero />
 			<About />
+			<WhyGirlsNeedYou />
 			<WhyBecomeMentor />
 			<HowItWorks />
 			<Testimonials />
